@@ -14,3 +14,13 @@
 
 Виведіть вміст словника на екран.
 """
+
+school = {'1a': 15, '1b': 20, '2b': 25, '6a': 30, '7v': 31}
+print(school['1a'])
+school['1a'] = 16
+school['1b'] = 21
+school['2b'] = 26
+school['3a'] = 1
+school['3b'] = 2
+school.pop('7v')
+print(school)
