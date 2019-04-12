@@ -4,3 +4,9 @@
 
 Для кожного слова з цього тексту підрахуйте, скільки разів воно зустрічалося в цьому тексті раніше.
 """
+a = 'avd avd dsa we qwe dsa dsa  dsa\ndsa'
+a = a.split()
+a1 = set(a)
+for i in a1:
+    print(i, a.count(i), end=' ')
+print(a1)
